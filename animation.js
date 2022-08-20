@@ -4,6 +4,7 @@ gsap.from(".image-right",{
     stagger: 0.5
 })
 
+
 gsap.from(".image",{
     duration:1,
     x:"-100vw",
