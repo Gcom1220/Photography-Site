@@ -69,7 +69,7 @@ gsap.from(".image-one-right", {
   
   gsap.from(".image-two", {
       scrollTrigger: {
-          trigger: '.image-two-right',
+          trigger: '.two',
           toggleActions: 'restart none none none'
       },
       x: "-100vw",
