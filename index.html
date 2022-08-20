@@ -14,15 +14,15 @@
           <nav class="flex justify-between items-end">
             <a
               href="index.html"
-              class="inline-block font-bold text-xl md:text-2xl text-gray-800"
+              class="font-bold text-xl md:text-2xl text-gray-800"
             >Farid World</a>
             <a
               href="about.html"
-              class="inline-block font-bold text-sm hover:text-base md:text-base md:hover:text-lg hover:text-gray-800"
+              class="font-bold text-base hover:text-lg md:text-lg md:hover:text-xl hover:text-gray-800"
             >About</a>
             <a
               href="contact.html"
-              class="inline-block font-bold text-sm hover:text-base md:text-base md:hover:text-lg hover:text-gray-800"
+              class="font-bold text-base hover:text-lg md:text-lg md:hover:text-xl hover:text-gray-800"
             >Contact</a>
           </nav>
         </div>
@@ -72,73 +72,82 @@
         </div>
       </div>
 
-      <div class="px-6 grid grid-cols-1 md:grid-cols-3 md:gap-10">
+       <!-- First image -->
+
+       <div class="px-6 grid grid-cols-1 md:grid-cols-3 md:gap-10 one">
         <div class="hover:shadow-xl my-4">
           <img
             src="images/vision.jpg"
             alt="vision"
-            class="image w-full h-64 sm:h-80 object-cover"
+            class="image-one w-full h-64 sm:h-80 object-cover"
           />
         </div>
         <div class="hover:shadow-xl my-4 md:col-span-2">
           <img
             src="images/seeds.jpg"
             alt="seeds"
-            class="image-right w-full h-64 sm:h-80 object-cover"
+            class="image-one-right w-full h-64 sm:h-80 object-cover"
           />
         </div>
       </div>
 
-      <div class="px-6 grid grid-cols-1 md:grid-cols-3 md:gap-10">
+      <!-- Second image -->
+
+      <div class="px-6 grid grid-cols-1 md:grid-cols-3 md:gap-10 two">
         <div class="hover:shadow-xl my-4 md:col-span-2">
           <img
             src="images/mania.jpg"
             alt="mania"
-            class="image w-full h-64 sm:h-80 object-cover"
+            class="image-two w-full h-64 sm:h-80 object-cover"
           />
         </div>
         <div class="hover:shadow-xl my-4">
           <img
             src="images/grace.jpg"
             alt="grace"
-            class="image-right w-full h-64 sm:h-80 object-cover"
+            class="image-two-right w-full h-64 sm:h-80 object-cover"
           />
         </div>
       </div>
 
-      <div class="px-6 grid grid-cols-1 md:grid-cols-3 md:gap-10">
+      <!-- Third image -->
+
+      <div class="px-6 grid grid-cols-1 md:grid-cols-3 md:gap-10 three">
         <div class="hover:shadow-xl my-4">
           <img
             src="images/outwest.jpg"
             alt="outwest"
-            class="image w-full h-64 sm:h-80 object-cover"
+            class="image-three w-full h-64 sm:h-80 object-cover"
           />
         </div>
         <div class=".container hover:shadow-xl my-4 md:col-span-2">
           <img
             src="images/2021II.jpg"
             alt="2021II"
-            class="image-right w-full h-64 sm:h-80 object-cover"
+            class="image-three-right w-full h-64 sm:h-80 object-cover"
           />
         </div>
       </div>
 
-      <div class="px-6 grid grid-cols-1 md:grid-cols-3 md:gap-10">
+      <!-- Fourth image -->
+
+      <div class="px-6 grid grid-cols-1 md:grid-cols-3 md:gap-10 four">
         <div class="hover:shadow-xl my-4 md:col-span-2">
           <img
             src="images/playground.jpg"
             alt="playground"
-            class="image w-full h-64 sm:h-80 object-cover"
+            class="image-four w-full h-64 sm:h-80 object-cover"
           />
         </div>
         <div class="hover:shadow-xl my-4">
           <img
             src="images/2021.jpg"
             alt="2021"
-            class="image-right w-full h-64 sm:h-80 object-cover"
+            class="image-four-right w-full h-64 sm:h-80 object-cover"
           />
         </div>
       </div>
+
 
       <div class="px-6 flex items-end justify-between">
         <div class="w-80 py-4">
@@ -190,6 +199,7 @@
       </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
     <script src="animation.js"></script>
   </body>
 </html>
